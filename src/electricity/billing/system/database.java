@@ -6,7 +6,7 @@ public class database {
     Statement statement;
     database(){
         try {
-            Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/orcl", "system", "SQL321");
+            Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/XE", "system", "Anuj99");
 
             statement = connection.createStatement();
         }catch (Exception e){

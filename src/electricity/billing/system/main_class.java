@@ -17,7 +17,7 @@ public class main_class extends JFrame implements ActionListener {
         this.acctype = acctype;
         setExtendedState(JFrame.MAXIMIZED_BOTH);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/ebs.png"));
+        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/ebs.jpg"));
         Image image = imageIcon.getImage().getScaledInstance(1530,830,Image.SCALE_DEFAULT);
         ImageIcon imageIcon2 = new ImageIcon(image);
         JLabel imageLable = new JLabel(imageIcon2);
